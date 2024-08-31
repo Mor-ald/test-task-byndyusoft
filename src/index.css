@@ -1,0 +1,21 @@
+/* stylelint-disable font-family-name-quotes */
+@font-face {
+	font-family: "GeometriaBold";
+	src: url("./fonts/geometria_bold.otf");
+}
+
+@font-face {
+	font-family: "GeometriaMedium";
+	src: url("./fonts/geometria_medium.otf");
+}
+
+:root {
+	color: #f2f2f2;
+	font-family: "GeometriaMedium", sans-serif;
+	background: linear-gradient(142deg, #ffa1a1 0.01%, #ff7b7b 100%);
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+}

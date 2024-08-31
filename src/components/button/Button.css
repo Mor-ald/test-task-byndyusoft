@@ -1,0 +1,111 @@
+.button-container {
+	margin: 0 20px;
+	padding: 0 10px;
+}
+
+.button,
+.button-fill {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80px;
+	height: 80px;
+	font-size: 36px;
+	border-radius: 100%;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	-webkit-tap-highlight-color: rgba(255 255 255 / 0%);
+	-webkit-tap-highlight-color: transparent;
+}
+
+.button:hover {
+	background-color: rgb(255 255 255 / 12%);
+}
+
+.button-fill {
+	color: #2b589a;
+	background: #fff;
+}
+
+.button-fill:hover {
+	opacity: 0.8;
+}
+
+@media (width <= 1280px) {
+	.button-container {
+		margin: 0 10px;
+		padding: 0 5px;
+	}
+
+	.button,
+	.button-fill {
+		width: 60px;
+		height: 60px;
+		font-size: 28px;
+	}
+}
+
+@media (width <= 600px) {
+	.button-container {
+		margin: 0 20px;
+		padding: 0 10px;
+	}
+
+	.button,
+	.button-fill {
+		width: 80px;
+		height: 80px;
+		font-size: 36px;
+	}
+
+	.button:hover {
+		background-color: rgb(255 255 255 / 0%);
+	}
+
+	.button-fill:hover {
+		opacity: 1;
+	}
+
+	.button:active {
+		background-color: rgb(255 255 255 / 12%);
+	}
+
+	.button-fill:active {
+		opacity: 0.8;
+	}
+}
+
+@media (width <= 500px) {
+	.button-container {
+		margin: 0 10px;
+		padding: 0 10px;
+	}
+}
+
+@media (width <= 430px) {
+	.button-container {
+		margin: 0 5px;
+		padding: 0 10px;
+	}
+
+	.button,
+	.button-fill {
+		width: 60px;
+		height: 60px;
+		font-size: 28px;
+	}
+}
+
+@media (width <= 340px) {
+	.button-container {
+		margin: 0 5px;
+		padding: 0 10px;
+	}
+
+	.button,
+	.button-fill {
+		width: 50px;
+		height: 50px;
+		font-size: 24px;
+	}
+}

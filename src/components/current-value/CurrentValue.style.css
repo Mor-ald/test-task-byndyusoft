@@ -1,0 +1,9 @@
+.value-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 76px;
+	overflow: hidden;
+	font-family: GeometriaBold, sans-serif;
+	line-height: 143%;
+}

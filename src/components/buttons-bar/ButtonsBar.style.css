@@ -1,0 +1,18 @@
+.buttons-bar {
+	display: flex;
+	margin-top: 16px;
+}
+
+.buttons-bar > div:first-child {
+	margin: 0;
+}
+
+.buttons-bar > div:last-child {
+	margin: 0;
+}
+
+@media (width <= 600px) {
+	.buttons-bar {
+		justify-content: center;
+	}
+}
